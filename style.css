@@ -17,3 +17,9 @@
       .cianoimpostor{
         color: rgb(255, 10, 10);
       }
+
+      .teste1{
+        color: brown;
+        font-weight: 900;
+        text-shadow:1px 1px red 
+      }
