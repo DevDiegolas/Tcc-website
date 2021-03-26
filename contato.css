@@ -1,15 +1,16 @@
 body{
-  background-color: black
+  font-family: sans-serif;
+  background-color: black;
 }
 
 form{
-  color: red
+  color: red;
 }
 
 h1{
-  color: blue
+  color: blue;
 }
 
 h2{
-  coloro: red
+  coloro: red;
 }
