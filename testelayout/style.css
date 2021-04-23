@@ -6,13 +6,39 @@
 }
 
 body{
-  
+  font-family: "helvetica", sans-serif;
 }
 
 .header{
-  
+  background-color: #27271F;
+  color: white;
 }
 
 .topnav{
-  
+  background-color: cyan;
+}
+
+.main{
+  background-color: #A63C06;
+  color: white;
+}
+
+.left-menu{
+  background-color: green;
+  color: white;
+}
+
+.article{
+  background-color: orange;
+  color: white;
+}
+
+.aside{
+  background-color: black;
+  color: white;
+}
+
+.footer{
+  background-color: red;
+  color: white;
 }
