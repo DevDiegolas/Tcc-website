@@ -12,6 +12,8 @@ body{
 .header{
   background-color: #27271F;
   color: white;
+  padding: 30px;
+  text-align: center;
 }
 
 .topnav{
