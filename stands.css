@@ -1,7 +1,12 @@
 .parte3{
   background-color: blue;
-  width: 100px;
-  height: 70px;
+  width: 170px;
+  height: 30px;
   border: 5px solid indigo;
 
   }
+
+
+body{
+  background-color: black;
+}
