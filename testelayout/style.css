@@ -95,6 +95,9 @@ body{
     background-color: red;
   }
   .main{
-    flex-direction: collumn;
+    flex-direction: column;
+  }
+  .left-menu, .article, .aside{
+    flex-direction: 0 1 auto;
   }
 }
