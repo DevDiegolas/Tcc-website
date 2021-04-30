@@ -29,22 +29,27 @@ body{
   display: inline-block;
   text-decoration: none;
   color: white;
-  padding: 10px 20px;
+  padding: 10px 30px;
 }
 
 .topnav a:hover{
-  color: red;
-  font-size: 20px;
+  background-color: #8EE7FD;
 }
 
 .main{
-  background-color: #A63C06;
-  color: white;
+  
 }
 
 .left-menu{
-  background-color: green;
+  background-color: #662D00;
+}
+
+.left-menu a{
+  text-decoration: none;
   color: white;
+  background-color: grey;
+  display: block;
+  padding: 8px;
 }
 
 .article{
