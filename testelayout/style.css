@@ -32,7 +32,10 @@ body{
   padding: 10px 20px;
 }
 
-
+.topnav a:hover{
+  color: red;
+  font-size: 20px;
+}
 
 .main{
   background-color: #A63C06;
