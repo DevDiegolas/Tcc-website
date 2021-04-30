@@ -7,11 +7,11 @@
 
 body{
   font-family: "helvetica", sans-serif;
+  color: white;
 }
 
 .header{
   background-color: #27271F;
-  color: white;
   padding: 30px;
   text-align: center;
 }
@@ -26,7 +26,10 @@ body{
 }
 
 .topnav a{
+  display: inline-block;
   text-decoration: none;
+  color: white;
+  padding: 10px 20px;
 }
 
 
