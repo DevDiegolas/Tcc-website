@@ -42,6 +42,12 @@ body{
 
 .left-menu{
   background-color: #662D00;
+  padding: 10px;
+}
+
+
+.left-menu h1{
+  margin: 5px 0px;
 }
 
 .left-menu a{
@@ -50,16 +56,26 @@ body{
   background-color: grey;
   display: block;
   padding: 8px;
+  margin-bottom: 5px;
+  font-weight: bold;
 }
+
+.left-menu a:hover{
+  background: rgb(145, 145, 145);
+}
+
+
 
 .article{
   background-color: orange;
   color: white;
+  padding: 10px;
 }
 
 .aside{
   background-color: black;
   color: white;
+  padding: 10px;
 }
 
 .footer{
