@@ -8,6 +8,7 @@
 body{
   font-family: "helvetica", sans-serif;
   color: white;
+  text-align: center;
 }
 
 .header{
@@ -37,7 +38,8 @@ body{
 }
 
 .main{
-  
+  display: flex;
+  height: 61vh;
 }
 
 .left-menu{
@@ -81,4 +83,5 @@ body{
 .footer{
   background-color: red;
   color: white;
+  padding: 10px;
 }
