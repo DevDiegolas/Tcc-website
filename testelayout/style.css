@@ -1,6 +1,6 @@
 *{
   box-sizing: border-box;
- /*margin: 0px;*/
+ margin: 0px;
   padding: 0px;
   
 }
@@ -16,9 +16,20 @@ body{
   text-align: center;
 }
 
+.header h1{
+  margin-bottom: 5px;
+}
+
+
 .topnav{
   background-color: cyan;
 }
+
+.topnav a{
+  text-decoration: none;
+}
+
+
 
 .main{
   background-color: #A63C06;
