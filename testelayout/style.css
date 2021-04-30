@@ -70,18 +70,31 @@ body{
 
 .article{
   background-color: orange;
-  color: white;
   padding: 10px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
 }
 
 .aside{
   background-color: black;
-  color: white;
   padding: 10px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 20%;
 }
 
 .footer{
   background-color: red;
-  color: white;
   padding: 10px;
+}
+
+
+@media all and (max-width: 800px){
+  .header{
+    background-color: red;
+  }
+  .main{
+    flex-direction: collumn;
+  }
 }
