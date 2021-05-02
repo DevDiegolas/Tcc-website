@@ -1,11 +1,103 @@
-body{
-  background-color: black;
-  background-repeat: no-repeat;
-  background-size: cover;
+*{
+  box-sizing: border-box;
+ margin: 0px;
+  padding: 0px;
+  
 }
 
-.inicio{
-  color: red;
+body{
+  font-family: "helvetica", sans-serif;
+  color: white;
   text-align: center;
-  border: 5px solid red
+}
+
+.header{
+  background-color: #27271F;
+  padding: 30px;
+  text-align: center;
+}
+
+.header h1{
+  margin-bottom: 5px;
+}
+
+
+.topnav{
+  background-color: cyan;
+}
+
+.topnav a{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 10px 30px;
+}
+
+.topnav a:hover{
+  background-color: #8EE7FD;
+}
+
+.main{
+  display: flex;
+  height: 61vh;
+}
+
+.left-menu{
+  background-color: #662D00;
+  padding: 10px;
+}
+
+
+.left-menu h1{
+  margin: 5px 0px;
+}
+
+.left-menu a{
+  text-decoration: none;
+  color: white;
+  background-color: grey;
+  display: block;
+  padding: 8px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.left-menu a:hover{
+  background: rgb(145, 145, 145);
+}
+
+
+
+.article{
+  background-color: orange;
+  padding: 10px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+}
+
+.aside{
+  background-color: black;
+  padding: 10px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 20%;
+}
+
+.footer{
+  background-color: red;
+  padding: 10px;
+}
+
+
+@media all and (max-width: 800px){
+  .header{
+    background-color: red;
+  }
+  .main{
+    flex-direction: column;
+  }
+  .left-menu, .article, .aside{
+    flex-direction: 0 1 auto;
+  }
 }
