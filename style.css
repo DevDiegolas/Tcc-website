@@ -96,6 +96,7 @@ body{
   }
   .main{
     flex-direction: column;
+    flex-direction: wrap;
   }
   .left-menu, .article, .aside{
     flex-direction: 0 1 auto;
