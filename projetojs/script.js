@@ -1,0 +1,1 @@
+window.alert("Sonic Capa 3")
