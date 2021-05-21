@@ -12,7 +12,7 @@
       Projeto JS
     </h1>
     
-    <h3>
+    <h3 id="texto">
       Meu nome é Giovanni Giorgio, mas todo mundo me chama de Giorgio
     </h3>
     
@@ -20,17 +20,22 @@
       Me aperte
     </button>
     
-    <button>
+    <button onclick= "traduzir()">
       Traduzir
+    </button>
+    
+    <button onclick="trolei()">
+      po
+      
     </button>
     
     <script>
       console.log("Sonic de Capa 3")
       
       function traduzir(){
-        window.alert("Função!! Giovanni Giorgio")
-        
+        document.getElementById("texto").innerHTML = 'My name is Giovanni Giorgio, but everybody calls me Giorgio'
       }
+      
       
     </script>
     
