@@ -40,7 +40,7 @@
     
     <label>Quantidade do spam</label>
     <input type="number" id="spam">
-    <button onclick="spam()">
+    <button onclick="spammar()">
       Spamar
     </button>
     
@@ -67,10 +67,9 @@
         else{
           window.alert("É impar")
         }
-      
-      function SPAMVDD(){
-        var spamqtd = document.getElementById('SPAMVDD').value;
-        
+      }
+      function spammar(){
+        var spamqtd = document.getElementById('spam').value;
         var colar = ""
         
         for(var i = 0; i < spamqtd; i++){
@@ -80,8 +79,6 @@
         document.getElementById("SPAMVDD").innerHTML = colar;
         
       }  
-        
-      }
       
     </script>
     
