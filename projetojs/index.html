@@ -44,6 +44,10 @@
       AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA MANKE AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
     </button>
     
+    <div id="LugardeSpamar">
+      
+    </div>
+    
     
     
     
@@ -66,6 +70,19 @@
         else{
           window.alert("É impar")
         }
+      
+      function spam(){
+        var spamqtd = document.getElementById('spam').value
+        
+        var colar = ""
+        
+        for(var i=0; i<spamqtd; i++){
+          colar = colar + "<button> MANKE </button>"
+        }
+        
+        document.getElementById('spam').innerHTML = colar;
+        
+      }  
         
       }
       
