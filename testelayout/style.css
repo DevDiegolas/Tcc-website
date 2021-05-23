@@ -12,13 +12,14 @@ body{
 }
 
 .header{
-  background-color: #27271F;
+  background-color: black;
   padding: 30px;
   text-align: center;
 }
 
 .header h1{
   margin-bottom: 5px;
+  background-color: black;
 }
 
 
