@@ -12,9 +12,10 @@ button{
 
 body{
   font-family: "helvetica", sans-serif;
-  color: white;
+  color: black;
   text-align: center;
   background-image: url(https://cdn.glitch.com/963171da-afdc-4769-bd91-83e1e81ced3f%2Fdino.jpg?v=1622829553351);
+  background-image: black;
 }
 
 .header{
