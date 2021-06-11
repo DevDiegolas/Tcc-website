@@ -5,17 +5,11 @@
   
 }
 
-button{
-  margin: 123px;
-}
-
 
 body{
   font-family: "helvetica", sans-serif;
-  color: black;
+  background-color: black;
   text-align: center;
-  background-image: url(https://cdn.glitch.com/963171da-afdc-4769-bd91-83e1e81ced3f%2Fdino.jpg?v=1622829553351);
-  background-image: black;
 }
 
 .header{
@@ -92,8 +86,11 @@ body{
 }
 
 .footer{
-  background-color: black;
+  color: 
+  background-color: #303133;
   padding: 10px;
+  margin-top: 350px;
+  margin-botton: 0px;
 }
 
 
